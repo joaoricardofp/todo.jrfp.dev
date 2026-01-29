@@ -59,14 +59,14 @@ export default function TodoList({ initialTodos }: { initialTodos: Awaited<Retur
     return(
         <div className="flex flex-col gap-6">
             <div className="flex flex-col items-center gap-2 text-center">
-                <a href="/" className="flex flex-col items-center gap-2 font-medium">
+                <div className="flex flex-col items-center gap-2 font-medium">
                     <div className="flex size-8 items-center justify-center rounded-md">
                         <ListCheckIcon className="size-6" />
                     </div>
                     <span className="sr-only">
                         To-do List
                     </span>
-                </a>
+                </div>
                 <h1 className="text-xl font-bold">
                     To-do List
                 </h1>
